@@ -1,2 +1,0 @@
-# examen
-Examen pagina Netflix
