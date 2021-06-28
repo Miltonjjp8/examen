@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PelisLocas</title>
+    <link rel="shortcut icon" href="../assets/logonetflix.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <H1>Examen unidad 2 Milton Jesus Jaimes Perez</H1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Definir el menu-->
+            <a class="navbar-brand" href="#home">
+                <figure>
+                    <img width="50" height="50" alt="Plaza Solas" src="../assets/logonetflix.png">
+                </figure>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#peliculas">Contenido<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#series">Favoritos</a>
+                    </li>
+                    <div class="text-right">
+                        <label></label>
+                        <textarea id="buscar" name="buscar" class="form-control"></textarea>
+                    </div>
+                    <div class="text-right">
+                        <button type="button" class="btn btn-outline-succes" onclick="formpag()">Buscar</button>
+                    </div>
+            </div>
+            </ul>
+            </div>
+        </nav>
+        <div>
+        <section id="home">
+            <article>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="col-12 col-sm-2 col-md-3">
+                                        <aside>
+                                            <video height="740" controls autoplay>
+                                                <source src="../assets/Coco.mp4" type="video/mp4" />
+                                            </video>
+                                        </aside>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="col-12 col-sm-2 col-md-3">
+                                        <aside>
+                                            <video height="740" controls autoplay>
+                                                <source src="../assets/f por la madre de cruella y cruella.mp4"
+                                                    type="video/mp4" />
+                                            </video>
+                                        </aside>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="col-12 col-sm-2 col-md-3">
+                                        <aside>
+                                            <video height="740" controls autoplay> 
+                                                <source src="../assets/LUCA.mp4" type="video/mp4" />
+                                            </video>
+                                        </aside>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </article>
+        </section>
+        
+        <section id="peliculas">
+            <article>
+                <div class="card text-center">
+                    <div class="card-header" style="background-color: rgb(1, 184, 240);"
+                        class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        Peliculas
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">¿Que vas a ver hoy?</h5>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Avengers</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://ep01.epimg.net/verne/imagenes/2014/09/26/articulo/1411711015_000207_1417351525_sumario_normal.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Divergente</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://i.pinimg.com/236x/a6/cc/24/a6cc24918e5b8cfda24911d4624c5d96--divergent-movie-poster-divergent-.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Avatar</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://ep01.epimg.net/verne/imagenes/2014/09/26/articulo/1411711015_000207_1417351474_sumario_normal.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Titanic</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://ep01.epimg.net/verne/imagenes/2014/09/26/articulo/1411711015_000207_1417351690_sumario_normal.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">E.T</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://ep01.epimg.net/verne/imagenes/2014/09/26/articulo/1411711015_000207_1417351782_sumario_normal.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Bambi</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://ep01.epimg.net/verne/imagenes/2014/09/26/articulo/1411711015_000207_1417351739_sumario_normal.jpg" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header" style="background-color: rgb(1, 184, 240);"
+                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            ¡Lo mas destacado!
+                        </div>
+            </article>
+        </section>
+        <section id="series">
+            <article>
+                <div class="card text-center">
+                    <div class="card-header" style="background-color: rgb(244, 248, 16);"
+                        class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        Series
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">¿Que vas a ver hoy?</h5>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">La casa de papel</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://s1.eestatic.com/2020/04/03/cultura/series/yoserieadicto-series-netflix_479712797_149650305_1706x960.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Elite</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://s1.eestatic.com/2020/03/13/cultura/series/yoserieadicto-series-netflix_474464674_148218986_640x360.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Rick and morty</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://images-na.ssl-images-amazon.com/images/I/71gOpL+GScL._RI_.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Breaking Bad</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://resizer.glanacion.com/resizer/P81aQD_d_2qfaEebvLYZHEVLCuU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/UZZD6VYDFJDUFH5RNRK2I5WG6Y.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Game of thrones</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://spoiler.bolavip.com/__export/1600201531509/sites/bolavip/img/2020/09/15/game_of_thrones_series_crop1600201530992.jpg_1902800913.jpg" />
+                                </button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <h6 class="card-title">Los simpsons</h6>
+                                <button>
+                                    <img style="height: 168px; width: 169px;" class="img-fluid"
+                                        src="https://i1.wp.com/hipertextual.com/wp-content/uploads/2016/09/los_simpson.jpg?fit=1000%2C750&ssl=1" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header" style="background-color: rgb(244, 248, 16);"
+                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            ¡Lo mas destacado!
+                        </div>
+                </article>
+            </section>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
